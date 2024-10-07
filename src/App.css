@@ -106,3 +106,23 @@ button:active {
     padding: 20px; /* تقليل مساحة داخلية في الشاشات الصغيرة */
   }
 }
+
+.result {
+  font-size: 1.5rem; /* حجم خط أكبر من المعتاد */
+  font-weight: bold; /* جعل النص غامق */
+  color: #333; /* لون النص داكن ليكون واضح */
+  padding: 10px; /* مساحة داخلية بسيطة */
+  margin-top: 20px; /* مسافة أعلى العنصر */
+  text-align: center; /* محاذاة النص إلى المركز */
+  margin-bottom: 10px;
+}
+
+.result span {
+  display: inline-block; /* يجعل الـ span عنصر كتلة ضمن السطر */
+  font-size: 1.2rem; /* حجم خط مختلف للـ span */
+  color: #007bff; /* لون مميز للـ span */
+  font-weight: normal; /* خط عادي للـ span */
+  padding: 2px 5px; /* مساحة داخلية خفيفة حول الـ span */
+  border-radius: 5px; /* زوايا دائرية للـ span */
+  background-color: rgba(0, 123, 255, 0.1); /* لون خلفية خفيف للـ span */
+}
