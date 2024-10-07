@@ -7,122 +7,142 @@
 }
 
 body {
-  font-family: Karla;
-}
-
-* {
-  box-sizing: border-box; /* التأكد من أن padding و border لا يؤثران على الأبعاد */
-}
-
-body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f7f9fc; /* لون خلفية فاتح جداً */
-  font-family: "Karla", sans-serif; /* استخدام خط Karla */
+  background-color: #f7f9fc;
+  font-family: "Karla", sans-serif;
   margin: 0;
-  padding: 20px; /* إضافة مسافة داخلية */
+  padding: 20px;
 }
 
 .container {
-  background-color: #ffffff; /* لون خلفية الكونتينر */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* ظل لطيف */
-  border-radius: 15px; /* زوايا مدورة */
-  padding: 40px; /* مساحة داخلية */
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px;
   width: 100%;
-  max-width: 450px; /* أقصى عرض للكونتينر */
-  text-align: center; /* محاذاة النص إلى المنتصف */
-  transition: transform 0.3s; /* تأثير تحريك */
-  border: 1px solid #e1e4e8; /* إضافة حدود خفيفة */
+  max-width: 450px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 1px solid #e1e4e8;
 }
 
 .container:hover {
-  transform: translateY(-5px); /* رفع الكونتينر قليلاً عند المرور فوقه */
+  transform: translateY(-5px);
 }
 
 h1 {
-  font-size: 2rem; /* حجم خط العنوان */
-  color: #3e4c6d; /* لون نص داكن مائل للأزرق */
-  margin-bottom: 20px; /* فراغ أسفل العنوان */
-  letter-spacing: 1px; /* زيادة التباعد بين الحروف */
-  font-family: "Karla", sans-serif; /* تطبيق خط Karla على العنوان */
+  font-size: 2rem;
+  color: #3e4c6d;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 label {
-  font-size: 1rem; /* حجم خط العناوين الفرعية */
-  color: #495057; /* لون رمادي داكن */
-  margin-bottom: 8px; /* فراغ أسفل العناوين الفرعية */
-  display: block; /* عرض ككتلة */
-  text-align: left; /* محاذاة النص إلى اليسار */
-  font-family: "Karla", sans-serif; /* تطبيق خط Karla على العناوين الفرعية */
+  font-size: 1rem;
+  color: #495057;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
 }
 
 input,
 select {
-  border: 2px solid #ced4da; /* إطار رمادي فاتح */
-  border-radius: 10px; /* زوايا مدورة */
-  padding: 12px; /* مساحة داخلية */
-  width: 100%; /* جعل العناصر تأخذ العرض الكامل للكونتينر */
-  margin-bottom: 20px; /* فراغ بين العناصر */
-  font-size: 1rem; /* حجم خط */
-  font-family: "Karla", sans-serif; /* تطبيق خط Karla على المدخلات */
-  transition: border 0.3s; /* تأثير انتقال للإطار */
+  border: 2px solid #ced4da;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  transition: border 0.3s;
 }
 
 input:focus,
 select:focus {
-  border-color: #007bff; /* تغيير لون الإطار عند التركيز */
-  outline: none; /* إزالة حدود التركيز الافتراضية */
+  border-color: #007bff;
+  outline: none;
 }
 
 button {
-  background-color: #007bff; /* لون زر */
-  color: #ffffff; /* لون نص الزر */
-  border: none; /* إزالة الحدود الافتراضية */
-  border-radius: 10px; /* زوايا مدورة للزر */
-  padding: 12px 20px; /* مساحة داخلية للزر */
-  cursor: pointer; /* تغيير المؤشر عند المرور فوق الزر */
-  font-size: 1rem; /* حجم خط الزر */
-  font-family: "Karla", sans-serif; /* تطبيق خط Karla على الزر */
-  transition: background-color 0.3s, transform 0.2s; /* تأثير انتقال عند تغيير اللون والتحريك */
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-  background-color: #0056b3; /* لون مختلف عند المرور فوق الزر */
-  transform: translateY(-2px); /* رفع الزر قليلاً عند المرور فوقه */
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
 
 button:active {
-  transform: translateY(0); /* إرجاع الزر لوضعه الأصلي عند الضغط عليه */
+  transform: translateY(0);
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.5rem; /* تصغير حجم الخط في الشاشات الصغيرة */
+    font-size: 1.5rem;
   }
   .container {
-    padding: 20px; /* تقليل مساحة داخلية في الشاشات الصغيرة */
+    padding: 20px;
   }
 }
 
 .result {
-  font-size: 1.5rem; /* حجم خط أكبر من المعتاد */
-  font-weight: bold; /* جعل النص غامق */
-  color: #333; /* لون النص داكن ليكون واضح */
-  padding: 10px; /* مساحة داخلية بسيطة */
-  margin-top: 20px; /* مسافة أعلى العنصر */
-  text-align: center; /* محاذاة النص إلى المركز */
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .result span {
-  display: inline-block; /* يجعل الـ span عنصر كتلة ضمن السطر */
-  font-size: 1.2rem; /* حجم خط مختلف للـ span */
-  color: #007bff; /* لون مميز للـ span */
-  font-weight: normal; /* خط عادي للـ span */
-  padding: 2px 5px; /* مساحة داخلية خفيفة حول الـ span */
-  border-radius: 5px; /* زوايا دائرية للـ span */
-  background-color: rgba(0, 123, 255, 0.1); /* لون خلفية خفيف للـ span */
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: normal;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  color: #6c757d;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center; /* محاذاة النص إلى المنتصف */
+  transition: background-color 0.3s, box-shadow 0.3s; /* إضافة تأثيرات انتقالية */
+}
+
+.footer a {
+  color: #007bff; /* لون الرابط */
+  text-decoration: none; /* إزالة الخط تحت الرابط */
+  font-weight: bold; /* جعل النص غامق */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* إضافة خط تحت الرابط عند المرور عليه */
+}
+
+/* تأثير عند تمرير الماوس على الفوتر */
+.footer:hover {
+  background-color: #f1f1f1; /* تغيير لون الخلفية عند المرور */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* إضافة ظل أعمق عند المرور */
 }
