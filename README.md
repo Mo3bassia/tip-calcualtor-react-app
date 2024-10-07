@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Bill Tip Calculator 🍽️💰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Preview](./public/preview.png)](<[https://tip-calculator-mo3bassias-projects.vercel.app](https://tip-calculator-mo3bassias-projects.vercel.app)>)
 
-## Available Scripts
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+## Live Demo 🌐
 
-### `npm start`
+- [Live Preview Here](https://tip-calculator-mo3bassias-projects.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview 📋
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a simple React application that allows users to calculate tips based on their bill amount and feedback on the service received. The application is designed to practice React fundamentals while creating a user-friendly interface.
 
-### `npm test`
+## Features 🌟
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Input Bill Amount**: Users can enter the total bill amount.
+- **Select Service Rating**: Users can rate the service from "Dissatisfied" to "Absolutely Amazing!" with percentage options.
+- **Result Display**: The app calculates and displays the total amount to be paid, including the calculated tip based on the average service rating.
+- **Reset Functionality**: Users can reset the form to start a new calculation.
 
-### `npm run build`
+## Technologies Used ⚙️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: The application is built using React for a dynamic and responsive user interface.
+- **JavaScript**: Used for implementing the app logic and state management.
+- **CSS**: Styles are applied to enhance the UI and make it visually appealing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Learning Journey 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is a small application I created as part of my learning process in React. I am currently focusing on mastering the basics of React, and this project serves as a practical exercise to reinforce my understanding of component-based architecture and state management.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the code, provide feedback, or suggest improvements! 🙌
